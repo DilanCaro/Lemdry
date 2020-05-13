@@ -73,6 +73,11 @@ header a:hover{
 
 }
 
+/*Logo section*/
+#logo{
+	min-height: 400px;
+	background:url('../img/showcase.jpg');
+}
 /*showcase*/
 
 #showcase{
