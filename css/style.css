@@ -36,6 +36,11 @@ ul{
 	color:#ffffff;
 	/*header*/
 }
+a{
+	text-decoration: none;
+	color: #000000;
+
+}
 header{
 		background: #35424a;
 		color: #ffffff;
@@ -74,10 +79,22 @@ header a:hover{
 }
 
 /*Logo section*/
-#logo{
-	min-height: 400px;
-	background:url('../img/showcase.jpg');
+#background{
+	background-image: url(../img/logobbmach.jpg);
 }
+.logobubbles{
+	display: block;
+	align-items: center;
+	min-height: 400px;
+	background: url(../img/bubblenobg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: rgba(0,0,0,0.7);
+	overflow:hidden;
+	border-bottom: #e8491d 3px solid;
+}
+
 /*showcase*/
 
 #showcase{
