@@ -231,6 +231,7 @@ footer{
 		text-align: center;
 		width: 100%;
 		align-content: center;
+		justify-content: center;
 	}
 	header{
 		padding-bottom: 20px;
@@ -255,9 +256,6 @@ footer{
 		margin:auto;
 		position: relative;
 		overflow: hidden;
-	}
-	.boxshow{
-
 	}
 #background{
 	background-image: url(../img/logobbmach.jpg);
