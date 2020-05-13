@@ -12,7 +12,7 @@ body{
 .container{
 		width:80%;
 		margin:auto;
-		position: relative;
+		position: center;
 		overflow: hidden;
 	}
 ul{
@@ -40,6 +40,13 @@ a{
 	text-decoration: none;
 	color: #000000;
 
+}
+.dark{
+	padding: 20px;
+	background: #354248;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 header{
 		background: #35424a;
@@ -144,11 +151,31 @@ header a:hover{
 #boxes .box{
 	float:left;
 	width: 30%;
-	padding:10px;
+	padding:20px;
 	text-align: center;
+	display:inline-block;
 }
 #boxes .box img{
 	width: 100px;
+}
+/*aside */
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top: 10px;
+}
+/*article main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
+}
+/*Sevices*/
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom:5px ;
+	background: #e6e6e6;
 }
 
 footer{
@@ -156,6 +183,7 @@ footer{
 	margin-top: 20px;
 	color: #ffffff;
 	background-color: #e8491d;
+	text-align: center;
 
 }
 
