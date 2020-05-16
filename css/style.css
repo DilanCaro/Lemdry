@@ -15,7 +15,7 @@ body{
 		position: relative;
 		overflow: hidden;
 	}
-	
+
 ul{
 	margin:0;
 	padding: 0;
@@ -233,7 +233,9 @@ background-color: rgba(0,0,0,0.7);
 	 min-height: 70px;
 	 border: #e8491d 3px solid;
 }
-
+#personal{
+	text-decoration: none;
+}
 /*Media queries*/
 @media(max-width: 768px){
 	header #branding,
