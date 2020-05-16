@@ -243,7 +243,8 @@ background-color: rgba(0,0,0,0.7);
 	#newsletter form,
 	#boxes .box,
 	article#main-col,
-	aside#sidebar{
+	aside#sidebar
+	.gerente{
 		float:none;
 		text-align: center;
 		width: 100%;
