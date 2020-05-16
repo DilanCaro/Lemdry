@@ -15,10 +15,10 @@ body{
 		position: relative;
 		overflow: hidden;
 	}
+	
 ul{
 	margin:0;
 	padding: 0;
-
 }
 .overlay{
 	position: absolute;	
